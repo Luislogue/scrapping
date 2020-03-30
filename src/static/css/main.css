@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 900px;
+    height: 900px;
+    background-color: antiquewhite;
+    
+}
+
+main{
+    margin: 1rem;
+}

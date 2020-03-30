@@ -29,3 +29,4 @@ CMD ["python3", "src/main.py"]
     #  docker ps -> para ver que containers estan corriendo,
     # docker exec -it <id del container> /bin/sh
 # VOLUMEN -> Es una conexion con una rama local a un docker image para no tener que hacer builds
+    # docker run -it -p 7000:5000 -d -v D:\WORK\Muevete\python\Template_Flask\src: /app/src flask_app
