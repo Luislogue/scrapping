@@ -16,7 +16,8 @@ body{
     margin: auto;
     width: 900px;
     height: 900px;
-    background-color: antiquewhite;
+    background-color: rgb(231, 211, 185);
+    border-radius: 2%;
     box-shadow: 4px 6px 12px -8px rgba(0,0,0,0.75);
     
 }
