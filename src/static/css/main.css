@@ -7,6 +7,7 @@ body{
     margin: auto;
     width: 900px;
     height: 900px;
+    background-color: rgb(240, 240, 231);
     
 }
 .container{
@@ -16,6 +17,7 @@ body{
     width: 900px;
     height: 900px;
     background-color: antiquewhite;
+    box-shadow: 4px 6px 12px -8px rgba(0,0,0,0.75);
     
 }
 

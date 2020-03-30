@@ -5,8 +5,12 @@ source = requests.get('https://www.apartamentos-siesta.com/').text
 
 soup = BeautifulSoup(source, 'lxml')
 hotel_name = soup.find('h1').text
-for hotel_price in soup.find_all('div',class_="price-tag-home"):
-     if len(hotel_price["class"]) != 1:
-         continue;
+
 print(hotel_name)
-print(hotel_price)
+
+
+source1 = requests.get('http://www.hotel-rural-can-beia.alaro.mallorca-vive.com/').text
+
+soup1 = BeautifulSoup(source1, 'lxml')
+hotel_nombre = soup.find('h1').select_one('span').text
+print(hotel_nombre)
